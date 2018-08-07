@@ -1,0 +1,11 @@
+<view>
+    <button type="primary" size="" onTap=""> 自动免登并获取用户信息 </button>
+    <view class="row">CorpId:{{corpId}}</view>
+    <view class="row">corpName:{{corpName}}</view>
+    <view class="row">AuthCode:{{authCode}}</view>
+    <view class="row">userId:{{userId}}</view>
+    <view class="row">userName:{{userName}}</view>
+    <view class="row">页面URL参数:{{param}}</view>
+    
+    <button type="primary" size="" onTap="sendMsg"> 测试发消息 </button>
+</view>
